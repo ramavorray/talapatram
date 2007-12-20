@@ -7,8 +7,16 @@
 #define IDS_ABOUTBOX                    101
 #define IDD_TALAPATRAM_DIALOG           102
 #define IDI_ICON1                       129
-#define IDI_MAINFRAME                   132
 #define IDR_MAINFRAME                   132
+#define IDD_PARENT_DLG                  133
+#define IDD_TALAPATRAM_DIALOG1          134
+#define IDI_DAPOS                       134
+#define IDI_SAPOS                       135
+#define IDI_COLON                       136
+#define IDI_QMARK                       137
+#define IDI_EXCLAIM                     138
+#define IDI_SEMICOLON                   139
+#define IDI_ASTERISK_CUR                141
 #define IDC_APOS                        1000
 #define IDC_1                           1001
 #define IDC_2                           1002
@@ -373,9 +381,12 @@
 #define IDC_SAVE_CONTENTS               1273
 #define IDC_wsup                        1275
 #define IDC_ASUP                        1276
+#define IDC_SAVE_TEXT                   1276
 #define IDC_QSUP                        1277
 #define IDC_ESUP                        1278
+#define IDC_HELP                        1278
 #define IDC_RSUP                        1279
+#define IDC_LANGLIST2                   1280
 #define IDC_TSUP                        1281
 #define IDC_YSUP                        1282
 #define IDC_USUP                        1283
@@ -393,19 +404,29 @@
 #define IDC_ZSUP                        1295
 #define IDC_XSUP                        1296
 #define IDC_CSUP                        1297
+#define IDC_DISP_KEYBOARD               1298
 #define IDC_VSUP                        1299
+#define IDC_ASTERISK                    1299
 #define IDC_BSUP                        1300
 #define IDC_NSUP                        1301
+#define IDC_EXCLAIM                     1301
 #define IDC_CSUP2                       1302
 #define IDC_MSUP                        1302
+#define IDC_QMARK                       1302
+#define IDC_COLON                       1303
+#define IDC_SAPOS                       1304
+#define IDC_BUTTON7                     1305
+#define IDC_DAPOS                       1305
+#define IDC_ABOUT                       1306
+#define IDC_ABOUTDLG_IMG                1307
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        133
+#define _APS_NEXT_RESOURCE_VALUE        142
 #define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1276
+#define _APS_NEXT_CONTROL_VALUE         1308
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

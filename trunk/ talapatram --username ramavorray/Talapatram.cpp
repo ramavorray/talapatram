@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "Talapatram.h"
 #include "TalapatramDlg.h"
+#include "ParentControlDialog.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -91,6 +92,7 @@ BOOL CTalapatramApp::InitInstance()
 	SetRegistryKey(_T("Talapatram, Vorray Inc."));
 
 	CTalapatramDlg dlg;
+	//ParentControlDialog dlg;
 	m_pMainWnd = &dlg;
 	INT_PTR nResponse = dlg.DoModal();
 	if (nResponse == IDOK)

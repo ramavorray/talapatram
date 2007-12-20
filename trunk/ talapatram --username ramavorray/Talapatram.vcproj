@@ -130,6 +130,12 @@
 				RelativePath=".\DispBox.cpp">
 			</File>
 			<File
+				RelativePath=".\Keyboard.cpp">
+			</File>
+			<File
+				RelativePath=".\ParentControlDialog.cpp">
+			</File>
+			<File
 				RelativePath=".\stdafx.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
@@ -162,6 +168,12 @@
 				RelativePath=".\DispBox.h">
 			</File>
 			<File
+				RelativePath=".\Keyboard.h">
+			</File>
+			<File
+				RelativePath=".\ParentControlDialog.h">
+			</File>
+			<File
 				RelativePath=".\Resource.h">
 			</File>
 			<File
@@ -181,6 +193,27 @@
 			Name="Resource Files"
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx"
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}">
+			<File
+				RelativePath=".\res\ico00001.ico">
+			</File>
+			<File
+				RelativePath=".\res\icon2.ico">
+			</File>
+			<File
+				RelativePath=".\res\icon3.ico">
+			</File>
+			<File
+				RelativePath=".\res\icon4.ico">
+			</File>
+			<File
+				RelativePath=".\res\icon5.ico">
+			</File>
+			<File
+				RelativePath=".\res\icon6.ico">
+			</File>
+			<File
+				RelativePath=".\res\icon7.ico">
+			</File>
 			<File
 				RelativePath=".\res\Talapatram Icon.ico">
 			</File>
