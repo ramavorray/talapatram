@@ -17,7 +17,6 @@ It is not a transliterator. It is a desktop application which lets you type as p
 It is a Windows based C++ - MFC application developed using MS VS.net 2003.
 
 = Requirements =
-*Unicode fonts*.
-_Microsoft XP/ Office XP/ Windows 2000 by default ship with Unicode fonts for almost all of the Indian Languages._
+*Unicode fonts*. _Microsoft XP/ Office XP/ Windows 2000 by default ship with Unicode fonts for almost all of the Indian Languages._
 
 See http://www.funnotes.net/tofpages/TopicOfFortnight.php?tofTpcFl=topicoffortnight40 which has been created using Talapatram. If you see contents of this page in your browser then Hindi Unicode fonts are installed on your machine!
