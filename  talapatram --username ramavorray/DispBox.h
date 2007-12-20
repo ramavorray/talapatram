@@ -31,6 +31,7 @@ public:
 	//afx_msg void OnChar(UINT nChar, UINT nRepCnt, UINT nFlags);
 	//afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
 	afx_msg void OnEnChange();
+	afx_msg void OnSize(UINT nType, int cx, int cy);
 };
 
 
