@@ -2,6 +2,11 @@
 //
 #include "resource.h"
 
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
 #define APSTUDIO_READONLY_SYMBOLS
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -59,7 +64,7 @@ BEGIN
     PUSHBUTTON      "*",IDC_ASTERISK,193,9,17,14,BS_ICON
     PUSHBUTTON      ";",IDC_SEMICOLON,214,9,17,14,BS_ICON
     PUSHBUTTON      "!",IDC_EXCLAIM,235,9,17,14,BS_ICON
-    PUSHBUTTON      "?",IDC_QMARK,256,9,17,14,BS_ICON
+    PUSHBUTTON      "?",IDC_QMARK,256,9,17,14,BS_ICON,0,HIDC_QMARK
     PUSHBUTTON      ":",IDC_COLON,277,9,17,14,BS_ICON
     PUSHBUTTON      "'",IDC_SAPOS,298,9,17,14,BS_ICON
     PUSHBUTTON      """",IDC_DAPOS,319,9,17,14,BS_ICON
