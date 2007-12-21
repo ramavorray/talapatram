@@ -5,6 +5,9 @@ Talapatram - Indian Languages Editing and Keyboard Layout Software
 
 Talapatram is a Indian Languages editing software with a provision to type in 11 of the Indian languages (+ English) with on-screen dynamic keyboard layouts.
 
+= Latest Version =
+
+Version 2.0
 
 = Details =
 
