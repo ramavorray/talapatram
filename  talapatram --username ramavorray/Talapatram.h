@@ -1,5 +1,10 @@
-// Talapatram.h : main header file for the PROJECT_NAME application
-//
+/*----------------------------------
+Class: CTalapatramApp
+
+Main Application instantiation class. This initializes the global application instance of the application.
+
+Written by: Rama Aravind Vorray, Feb 2007.
+----------------------------------*/
 
 #pragma once
 
@@ -10,20 +15,13 @@
 #include "resource.h"		// main symbols
 
 
-// CTalapatramApp:
-// See Talapatram.cpp for the implementation of this class
-//
-
 class CTalapatramApp : public CWinApp
 {
 public:
 	CTalapatramApp();
 
-// Overrides
-	public:
+public:
 	virtual BOOL InitInstance();
-
-// Implementation
 
 	DECLARE_MESSAGE_MAP()
 };
