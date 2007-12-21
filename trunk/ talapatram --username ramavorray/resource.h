@@ -8,7 +8,6 @@
 #define IDD_TALAPATRAM_DIALOG           102
 #define IDI_ICON1                       129
 #define IDR_MAINFRAME                   132
-#define IDD_PARENT_DLG                  133
 #define IDD_TALAPATRAM_DIALOG1          134
 #define IDI_DAPOS                       134
 #define IDI_SAPOS                       135
@@ -384,7 +383,6 @@
 #define IDC_SAVE_TEXT                   1276
 #define IDC_QSUP                        1277
 #define IDC_ESUP                        1278
-#define IDC_HELP                        1278
 #define IDC_RSUP                        1279
 #define IDC_LANGLIST2                   1280
 #define IDC_TSUP                        1281

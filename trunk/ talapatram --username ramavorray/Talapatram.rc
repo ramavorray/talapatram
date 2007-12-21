@@ -321,8 +321,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,1
- PRODUCTVERSION 1,0,0,1
+ FILEVERSION 2,0,0,0
+ PRODUCTVERSION 2,0,0,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -338,13 +338,13 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "Vorray Software"
-            VALUE "FileDescription", "Talapatram V1.0"
-            VALUE "FileVersion", "1.0.0.1"
+            VALUE "FileDescription", "Talapatram V2.0"
+            VALUE "FileVersion", "2.0.0.0"
             VALUE "InternalName", "Talapatram"
             VALUE "LegalCopyright", "© Vorray Software.  All rights reserved."
             VALUE "OriginalFilename", "Talapatram.exe"
-            VALUE "ProductName", "Indian Languages'  Key Pad"
-            VALUE "ProductVersion", "1.0.0.1"
+            VALUE "ProductName", "Indian Languages Editor & Keyboard Layouts Software"
+            VALUE "ProductVersion", "2.0.0.0"
         END
     END
     BLOCK "VarFileInfo"
@@ -410,42 +410,6 @@ END
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
 #pragma code_page(1252)
 #endif //_WIN32
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// Dialog
-//
-
-IDD_PARENT_DLG DIALOGEX 0, 0, 209, 90
-STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
-    WS_SYSMENU
-CAPTION "Talapatram"
-FONT 8, "MS Shell Dlg", 400, 0, 0x1
-BEGIN
-    PUSHBUTTON      "Save",IDC_SAVE_TEXT,73,34,50,14
-    PUSHBUTTON      "Editor",IDC_EDITOR,15,34,50,14
-    PUSHBUTTON      "Help",IDC_HELP,141,35,50,14
-END
-
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// DESIGNINFO
-//
-
-#ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
-BEGIN
-    IDD_PARENT_DLG, DIALOG
-    BEGIN
-        LEFTMARGIN, 7
-        RIGHTMARGIN, 202
-        TOPMARGIN, 7
-        BOTTOMMARGIN, 83
-    END
-END
-#endif    // APSTUDIO_INVOKED
-
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////

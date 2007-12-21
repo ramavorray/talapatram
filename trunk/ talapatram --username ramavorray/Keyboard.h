@@ -1,3 +1,15 @@
+/*-----------------------------------
+Class: Keyboard
+
+This class is an interface class for displaying keyboard layouts. It takes font information and control variables from
+CTalapatramDlg class and displays as an UI. This class holds text data of all languages in Unicode format. Encoding
+used to save these files is 'Unicode-Codepage 1200'.
+
+Added in v2.0
+
+Written by: Rama Aravind Vorray, Oct, 2007.
+-----------------------------------*/
+
 #pragma once
 #include "afxwin.h"
 

@@ -1,14 +1,14 @@
 /*	NOTE: If you running this in a none-Windows platform, 
-	then you should remove the include file below.
-  */
-	//#include <afx.h>
-	#include "stdafx.h"
+then you should remove the include file below.
+*/
+//#include <afx.h>
+#include "stdafx.h"
 
 #include "textfile.h"
 
 #if PEK_TX_TECHLEVEL == 0
- //Include iostream if running in ANSI mode.
- #include <iostream>
+//Include iostream if running in ANSI mode.
+#include <iostream>
 #endif
 
 //Base constructor
@@ -254,6 +254,7 @@ void CTextFileBase::ConvertWcharToString(const wchar_t* from, string &to, bool* 
 
 
 #endif
+
 
 
 

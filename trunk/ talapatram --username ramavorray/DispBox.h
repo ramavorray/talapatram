@@ -1,16 +1,22 @@
+/*-------------------------------------
+Class: DISP_BOX
+
+This class is for the text display box (editing region) of the application. This is necessary for resizing
+of the region when main dialog (CTalapatamDlg) is resized.
+
+Written by: Rama Aravind Vorray, Feb, 2007.
+-------------------------------------*/
 #pragma once
 
 #include <WinUser.h>
 
-
-// DISP_BOX view
 
 class DISP_BOX : public CEditView
 {
 	DECLARE_DYNCREATE(DISP_BOX)
 
 public:
-	DISP_BOX();           // protected constructor used by dynamic creation
+	DISP_BOX();
 	virtual ~DISP_BOX();
 
 public:
@@ -21,15 +27,8 @@ public:
 
 protected:
 	DECLARE_MESSAGE_MAP()
-//public:
-//	afx_msg void OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags);
-//
-//private:
-//	bool m_shift, m_altGr;
-//	CString m_dispText;
+
 public:
-	//afx_msg void OnChar(UINT nChar, UINT nRepCnt, UINT nFlags);
-	//afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
 	afx_msg void OnEnChange();
 	afx_msg void OnSize(UINT nType, int cx, int cy);
 };
