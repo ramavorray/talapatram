@@ -114,6 +114,7 @@ public:
    CButton m_menuDApos;
 
    HICON m_iconMenuAsterisk, m_iconMenuSemiColon, m_iconMenuExclaim, m_iconMenuQMark, m_iconMenuColon, m_iconMenuSApos, m_iconMenuDApos;
+//   virtual BOOL PreTranslateMessage(MSG* pMsg);
 };
 
 // Keyboard dialog
@@ -136,6 +137,7 @@ protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
 
 	HICON m_hIcon;
+   
 
 // Implementation
 protected:
@@ -385,4 +387,6 @@ public:
 	afx_msg void OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
 	afx_msg void OnClose();
+   afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
+   afx_msg void OnBnClickedSpcbar();
 };
