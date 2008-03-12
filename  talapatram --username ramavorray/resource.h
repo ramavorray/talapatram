@@ -417,6 +417,7 @@
 #define IDC_DAPOS                       1305
 #define IDC_ABOUT                       1306
 #define IDC_ABOUTDLG_IMG                1307
+#define IDC_COMP_NAME                   1308
 
 // Next default values for new objects
 // 
@@ -424,7 +425,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        143
 #define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1308
+#define _APS_NEXT_CONTROL_VALUE         1309
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif
