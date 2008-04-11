@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 8.00
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Talapatram", "Talapatram.vcproj", "{9117EB47-924D-480C-B0C9-98A17BF00A85}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Talapatram", "Talapatram-vs2003.vcproj", "{9117EB47-924D-480C-B0C9-98A17BF00A85}"
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject
