@@ -40,8 +40,8 @@ BOOL CTalapatramApp::InitInstance()
 
 	AfxEnableControlContainer();
 
-	FILE *fp=_wfopen(_T("LICENSE-DONT-DELETE.txt"), _T("rb"));
-	if(fp==NULL)
+	FILE *fp;
+	if(_wfopen_s(&fp, _T("LICENSE-DONT-DELETE.txt"), _T("rb")) != 0)
 	{
 		MessageBox(NULL, _T("Oi... Your License file is missing! Contact me at www.funnotes.net/talapatram/contact.html with details."), _T("License Error"), MB_OK);
 		return -1;
