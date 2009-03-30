@@ -406,6 +406,7 @@
 #define IDC_VSUP                        1299
 #define IDC_ASTERISK                    1299
 #define IDC_BSUP                        1300
+#define IDC_ASTERISK2                   1300
 #define IDC_NSUP                        1301
 #define IDC_EXCLAIM                     1301
 #define IDC_CSUP2                       1302
