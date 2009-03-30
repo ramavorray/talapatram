@@ -16,6 +16,8 @@ Written by: Rama Aravind Vorray, Oct, 2007.
 class Keyboard;
 class DISP_BOX;
 
+#define MYWM_NOTIFYICON (WM_USER+2)
+
 // CTalapatramDlg dialog
 class CTalapatramDlg : public CDialog
 {
@@ -82,9 +84,11 @@ private:
 	
 	//CListBox m_langList;
 	CComboBox m_langList;
+	HKL m_systemDefaultLang;
+	HWND m_curWindow;
 
 public:
-	CString m_langs[NUMLANGS];
+	CString m_langs[NUMLANGS+1];
 	CString m_langsInTheirLang[NUMLANGS];
 
 	afx_msg void OnLbnSelchangeLanglist();
@@ -104,6 +108,9 @@ public:
    afx_msg void OnBnClickedSapos();
    afx_msg void OnBnClickedDapos();
    afx_msg void OnBnClickedAbout();
+	BOOL TrayMessage(DWORD dwMessage);
+	void PutTextInCurrentWindow(CString text);
+	void SetCurWindow(HWND curWindow);
 
    CButton m_menuAsterisk;
    CButton m_menuSemiColon;
@@ -115,6 +122,10 @@ public:
 
    HICON m_iconMenuAsterisk, m_iconMenuSemiColon, m_iconMenuExclaim, m_iconMenuQMark, m_iconMenuColon, m_iconMenuSApos, m_iconMenuDApos;
 //   virtual BOOL PreTranslateMessage(MSG* pMsg);
+	afx_msg void OnDestroy();
+	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+protected:
+	virtual LRESULT WindowProc(UINT message, WPARAM wParam, LPARAM lParam);
 };
 
 // Keyboard dialog
